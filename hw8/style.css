@@ -1,0 +1,12 @@
+.relative {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  border: 1px solid purple;
+}
+.absolute {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border: 1px solid red;
+}
