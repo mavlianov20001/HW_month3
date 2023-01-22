@@ -23,7 +23,7 @@ showTabContent()
 
 //1
 let q = 0;
-function slyder () {
+function slider () {
      const sl = setInterval(()=>{
           q++
           if (q > 3) {
@@ -33,7 +33,7 @@ function slyder () {
           showTabContent(q)
      }, 2000)
 }
-slyder()
+slider()
 
 
 tabsParent.addEventListener("click", (e)=>{
@@ -75,12 +75,13 @@ modal.addEventListener("click", (e)=>{
         closeModal()
     }
 })
-
-function scroll() {
-     const down = document.documentElement
-     if (down.scrollTop + down.clientHeight >= down.scrollHeight) {
-          openModal()
-     }
+//2
+const int = () => {
+    let page = document.documentElement
+    if (page.scrollTop + page.clientHeight >= page.scrollHeight) {
+        openModal()
+        document.body.style.overflow = "hidden"
+    }
 }
 
-window.addEventListener("scroll", scroll)
+window.addEventListener("scroll", int)
