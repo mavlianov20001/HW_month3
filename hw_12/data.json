@@ -1,0 +1,27 @@
+[
+     {
+          "price": "$120 000",
+          "name": "truck",
+          "img": "img/truck.jpg"
+     },
+     {
+          "price": "$1000 000",
+          "name": "brabus",
+          "img": "img/mercedes-benz.jpg"
+     },
+     {
+          "price": "$120 000",
+          "name": "audi",
+          "img": "img/audi.jpg"
+     },
+     {
+          "price": "$1550 000",
+          "name": "m5",
+          "img": "img/bmw.jpg"
+     },
+     {
+          "price": "$19990 000",
+          "name": "agera",
+          "img": "img/konisegg.jpg"
+     }
+]
